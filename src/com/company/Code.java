@@ -1,0 +1,5 @@
+package com.company;
+
+public enum Code {
+    TERMS, SPIES, JOINS, TIRES, TRICK, TRIED, SKIES, THIRD, FRIES, PRICE, TRIES, TRITE, TANKS, THICK, TRIBE, TEXAS
+}
