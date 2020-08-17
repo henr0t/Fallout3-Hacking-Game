@@ -1,9 +1,9 @@
 package com.company;
 
 public class Attempts {
-    int attemptsCount = 3;
+    int attemptsCount = 4;
     int removeBlock = 0;
-    String attemptsText = " ATTEMPT(S) LEFT: [] [] []\n";
+    String attemptsText = " ATTEMPT(S) LEFT: [] [] [] []\n";
 
 
     public String minusAttempt(){
@@ -22,6 +22,6 @@ public class Attempts {
     }
 
     Attempts(){
-        System.out.println(attemptsCount + " ATTEMPT(S) LEFT: [] [] []\n");
+        System.out.println(attemptsCount + attemptsText);
     }
 }
